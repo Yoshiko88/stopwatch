@@ -1,0 +1,254 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+Header {
+    display: block;
+}
+
+.Header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Header {
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+.header_logo {
+    height: 20px;
+    width: auto;
+}
+
+/* チェックボックスを非表示にする */
+.drawer_hidden {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    font-size: 11px;
+}
+
+.light:hover {
+    opacity: 0.7;
+}
+
+.header_right {
+    display: flex;
+    justify-content: between;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.header_right li {
+    list-style: none;
+}
+
+.header_right a {
+    text-decoration: none;
+}
+
+.header_right a:hover {
+    opacity: 0.7;
+}
+
+.black {
+    color: black;
+}
+
+.orange_button {
+    background-color: #f79214;
+    color: #fff;
+    border-radius: 38px;
+    font-size: 13px;
+    height: 40px;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.hamburger {
+    width: 100px;
+}
+
+.FirstView{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+.FirstView__main-image{
+    width: 100%;
+}
+
+.FirstView__main-image--sp{
+    display: none;
+}
+
+.FirstView__container{
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.FirstViewContent{
+    margin-bottom: 70px;
+    width: fit-content;
+}
+
+.FirstViewContent__title{
+    color: #333;
+    font-family: 'Lato',sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.FirstViewContent__images{
+    margin-bottom: 25px;
+}
+
+.FirstViewContent__images img {
+    margin-right: 8px;
+}
+.FirstViewContent__images img:nth-of-type(2) {
+    width: 40%;
+}
+.FirstViewContent__buttons{
+    display: flex;
+}
+.entry{
+    height: 50px;
+}    
+.entry{
+    text-decoration: none;
+    padding: 20px 30px;
+}
+.entry a:hover{
+    opacity: 0.7;
+}
+.FirstViewContent__buttons {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.FirstViewContent__buttons a:first-of-type {
+    margin-right: 15px;
+    width: 306px;
+}
+
+.FirstViewContent__buttons a:last-of-type{
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    color: #333;
+    width: 176px;
+}
+
+
+.FirstViewCaption{
+    color: #a2a2a4;
+    font-size: 12px;
+}
+
+.AboutWrapper{
+    background-color: #f79214;
+    padding: 44px 0;
+}
+
+.About{
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About__video {
+    width: 50%;
+}
+
+.About__title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 0;
+    margin-left: 32px;
+}
+
+.About__title h2 {
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 54px;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+}
+
+.About__title p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #fff;
+    text-align: left;
+}
+.About__Reskilling-logo>img {
+    width: 158px;
+}
+    .About__button {
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.About__button>img {
+    margin-right: 5px;
+}
